@@ -4,6 +4,7 @@ export type Item = {
   title: string;
   description: string;
   imageUrl: string;
+  subtitle?: string;
   createdAt?: string;
   updatedAt?: string;
 };
