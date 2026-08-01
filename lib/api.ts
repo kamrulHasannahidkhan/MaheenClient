@@ -4,6 +4,8 @@ export type Item = {
   title: string;
   description: string;
   imageUrl: string;
+  createdAt?: string;
+  updatedAt?: string;
 };
 
 export async function getItems(section: string): Promise<Item[]> {
